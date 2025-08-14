@@ -1,21 +1,11 @@
 # Input Files
 
-This directory contains files and scripts used to generate the molecular system and prepare it for simulation.
+This directory contains solvated topology and restart files from after the relaxation steps, representing the starting conformations for each system's production run. 
 
-Common contents:
-- Initial PDB files
-- Topology and coordinate files (e.g., `.prmtop`, `.inpcrd`, `.psf`, `.gro`)
-- Parameter or force field modifications (`.frcmod`, `.lib`, `.itp`)
-- System-building scripts (e.g., `tleap.in`, `parmed.in`, `gmx pdb2gmx`)
-- Solvation and ionization commands
-- Any notes on missing residues, mutations, or modeling steps
+These files were used for Amber24 simulations. Each system was run with the ff19SB protein force field, OPC water, and Li-Merz ions for OPC water. Systems with DNA additionally used the BSC1 force field. 
 
-**Simulation engine neutrality:**  
-While most systems in this lab are prepared using AMBER tools (e.g., `tleap`), this directory structure is designed to support setup workflows for other MD engines as well.
+All systems are neutralized and have extra Na+ and Cl- ions added to create a concentration of 150mM NaCl.
 
-Please document:
-- The intended simulation platform (Amber, NAMD, GROMACS, etc.)
-- Force field(s) used (e.g., ff14SB, CHARMM36, GAFF2)
-- Specific preparation steps (e.g., protonation states, box dimensions, ion concentrations)
+Monomer and dimer systems were solvated in 10 Angstrom water boxes. Systems with DNA were solvated with 12 Angstrom buffers from the DNA ends along the DNA helical axis and 20 Angstrom buffers perpendicular to the axis.
 
-If a single command/script was used to build the system, place it here (e.g., `tleap.in`, `gmx_setup.sh`).
+Variants of Cro were created using Dunbrack 2010 rotamer library in UCSF Chimera for mutations and deleting residues 60-66 prior to running tleap for truncations.
