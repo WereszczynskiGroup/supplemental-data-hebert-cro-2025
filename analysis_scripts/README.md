@@ -2,15 +2,13 @@
 
 Contains all post-simulation analysis scripts.
 
-Common tools:
-- cpptraj / pytraj
-- Python (MDAnalysis, MDTraj, NumPy, Pandas)
-- R (for stats or plotting)
-- GROMACS tools (e.g., `gmx rms`, `gmx hbond`)
+Tools needed to run these analyses:
+- AmberTools20 or later
+- Amber20 or later for MM/GBSA
+- Python 3 
+    - MDAnalysis
+    - Numpy
+    
+Scripts for dCNA analysis are not included; source code may be found in The Hamelberg Group's GitHub page: https://github.com/The-Hamelberg-Group/dcna
 
-Include:
-- Scripts to extract observables (e.g., RMSD, contacts, hydrogen bonds)
-- Automation or plotting scripts for generating figures
-- Documentation of required input arguments and software dependencies
-
-If analysis is tightly coupled to simulation format, include clear instructions for conversion (e.g., from AMBER `nc` to MDTraj-readable format).
+Prior to analyses, Zenodo trajectories should have post-equilibration frames combined from all runs into one trajectory. Scripts have been written such that they should be named similarly to the trajectories they're composed of. For instance, if combining all Act3 monomer Cro trajectories, the most frictionless name to pick will be "A3_Monomereq.xtc".

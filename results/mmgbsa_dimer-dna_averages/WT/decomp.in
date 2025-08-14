@@ -1,0 +1,12 @@
+#Per-residue GB and PB decomposition
+&general
+  endframe=2000, verbose=1, keep_files=2, receptor_mask=:65-196, ligand_mask=:1-64
+/
+&gb
+ igb=8, saltcon=0.15,
+/
+/
+&decomp
+ idecomp=1, print_res="65-196; 1-64"
+ csv_format=0,
+ dec_verbose=0

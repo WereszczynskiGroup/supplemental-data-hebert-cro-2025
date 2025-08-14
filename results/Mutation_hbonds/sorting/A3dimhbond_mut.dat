@@ -1,0 +1,7 @@
+#Acceptor            DonorH         Donor   Frames         Frac      AvgDist       AvgAng
+
+ASN_92@OD1         ALA_95@H      ALA_95@N     4416       0.1840       2.8776     153.3956
+ASN_92@OD1         SER_94@H      SER_94@N     4330       0.1804       2.8777     154.9586
+ASN_92@OD1        SER_94@HG     SER_94@OG     3032       0.1263       2.7037     159.9381
+ASN_92@O           ILE_96@H      ILE_96@N     2708       0.1128       2.9102     158.3381
+ASN_92@O           ALA_95@H      ALA_95@N     2409       0.1004       2.8963     145.6760

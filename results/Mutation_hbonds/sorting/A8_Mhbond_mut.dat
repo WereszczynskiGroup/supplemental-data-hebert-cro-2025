@@ -1,0 +1,6 @@
+#Acceptor          DonorH        Donor   Frames         Frac      AvgDist       AvgAng
+ASN_26@OD1       ALA_29@H     ALA_29@N     4299       0.1791       2.8822     154.2085
+ASN_26@OD1       SER_28@H     SER_28@N     3971       0.1655       2.8802     154.5405
+ASN_26@O         ILE_30@H     ILE_30@N     3075       0.1281       2.9125     159.0365
+ASN_26@OD1      SER_28@HG    SER_28@OG     2873       0.1197       2.6998     160.3869
+ASN_26@O         ALA_29@H     ALA_29@N     2485       0.1035       2.8970     145.5498

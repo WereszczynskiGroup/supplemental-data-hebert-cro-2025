@@ -1,0 +1,4 @@
+#Acceptor            DonorH         Donor   Frames         Frac      AvgDist       AvgAng
+DG_53@OP1         TYR_90@HH     TYR_90@OH    16835       0.7941       2.7189     162.8809
+DG_22@OP1        TYR_156@HH    TYR_156@OH    14162       0.6680       2.7221     162.9514
+TYR_156@O         ALA_159@H     ALA_159@N     2139       0.1009       2.9011     145.6901

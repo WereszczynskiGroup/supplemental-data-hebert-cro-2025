@@ -1,0 +1,13 @@
+#Acceptor          DonorH        Donor   Frames         Frac      AvgDist       AvgAng
+LYS_18@O         ASP_22@H     ASP_22@N    18588       0.7745       2.8574     163.3699
+ASP_22@OD1      TYR_10@HH    TYR_10@OH    11496       0.4790       2.6543     163.7808
+ASP_22@OD2      TYR_10@HH    TYR_10@OH    10107       0.4211       2.6551     163.4248
+THR_17@O         LYS_21@H     LYS_21@N     5552       0.2313       2.9040     160.2868
+GLN_27@OE1     THR_17@HG1   THR_17@OG1     4254       0.1772       2.7499     161.9491
+TYR_26@O         ALA_29@H     ALA_29@N     3934       0.1639       2.8968     147.4226
+ASP_22@OD1     LYS_18@HZ2    LYS_18@NZ     3669       0.1529       2.8064     154.3018
+ASP_22@OD1     LYS_18@HZ3    LYS_18@NZ     3667       0.1528       2.8053     154.3443
+ASP_22@OD2     LYS_18@HZ2    LYS_18@NZ     3564       0.1485       2.8087     154.4900
+ASP_22@OD2     LYS_18@HZ1    LYS_18@NZ     3534       0.1472       2.8102     154.4493
+ASP_22@OD1     LYS_18@HZ1    LYS_18@NZ     3503       0.1460       2.8043     154.0537
+ASP_22@OD2     LYS_18@HZ3    LYS_18@NZ     3480       0.1450       2.8075     154.5953
