@@ -15,4 +15,12 @@ This repository contains supplementary code and data for:
 - Data: CC BY 4.0 (see LICENSE-data.txt)
 
 ## Citation
-Include the paper citation or DOI here when published.
+If you use materials from this repository, please cite the following:
+
+R. Hebert, A. Perez, and J. Wereszczynski, *Molecular Mechanisms of Gain-of-Function Mutation in λ Cro Reveals by Molecular Dynamics Simulations*, *bioRxiv*, 2025
+DOI: [10.1101/2025.02.13.638112](https://doi.org/10.1101/2025.02.13.638112)
+
+Data archive on Zenodo:  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16877368.svg)](https://doi.org/10.5281/zenodo.16877368)
+
+Trajectory files have been deposited on Zenodo. These files are water-stripped and strided for size reduction, but cover the full simulation time and support full reproduction of results.
