@@ -9,3 +9,5 @@ All systems are neutralized and have extra Na+ and Cl- ions added to create a co
 Monomer and dimer systems were solvated in 10 Angstrom water boxes. Systems with DNA were solvated with 12 Angstrom buffers from the DNA ends along the DNA helical axis and 20 Angstrom buffers perpendicular to the axis.
 
 Variants of Cro were created using Dunbrack 2010 rotamer library in UCSF Chimera for mutations and deleting residues 60-66 prior to running tleap for truncations.
+
+The Amber input files used for simulation runs are also included.
